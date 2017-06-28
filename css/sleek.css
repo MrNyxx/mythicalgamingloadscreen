@@ -97,8 +97,3 @@ video {
 	z-index: -1;
 	background-repeat: repeat;
 }
-
-iframe.hidden
-{
-display:none
-}

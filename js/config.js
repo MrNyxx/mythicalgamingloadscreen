@@ -13,7 +13,7 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Votre Serveur";
+var l_serverName = "sleekLoad 2";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,13 +50,10 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/fond1.jpg",
-	"backgrounds/images/fond2.jpg",
-	"backgrounds/images/fond3.jpg",
-	"backgrounds/images/fond4.jpg",
-	"backgrounds/images/fond5.jpg",
-	"backgrounds/images/fond6.jpg",
-]
+	"backgrounds/images/touhou01.jpg",
+	"backgrounds/images/touhou02.jpg",
+	"backgrounds/images/touhou03.jpg"
+];
 
 /*Random background images order?*/
 var l_bgImagesRandom = true;
@@ -88,6 +85,10 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
+	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
+	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
+	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
+	{youtube: "-7VeTkLKdDw", name: "Departure"}
 ];
 
 /*Random music order?*/
@@ -95,27 +96,20 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 5;
+var l_musicVolume = 25;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Bienvenue sur Votre serveur Rp",
-"Merci de ne pas Freekill / Propskill",
-"Merci de Ne pas faire de Métagaming",
-"Merci de Ne pas Insulter",
-"Merci de Réspecter le NLR",
-"Merci de Ne pas Use Bug",
-"Merci de Jouer RP",
-"Merci de ne pas Déco pendant une Scène RP",
-"Amusez vous bien sur Votre Serveur !",
-"Pour Plus D'Infos rendez vous sur notre forum: lien du forum"
+"Enjoy the server",
+"Thanks for joining us!",
+"Did you know these backgrounds and songs are from Touhou?"
 ];
 
 /*Random message order?*/
-var l_messagesRandom = false;
+var l_messagesRandom = true;
 
 /*Delay between message changes
 in milliseconds*/
@@ -123,4 +117,4 @@ var l_messagesDelay = 5000;
 
 /*Messages fade time
 in milliseconds*/
-var l_messagesFade = 2000;
+var l_messagesFade = 1000;
