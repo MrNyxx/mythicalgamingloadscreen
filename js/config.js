@@ -13,46 +13,29 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "sleekLoad 2";
+var l_serverName = "Mythical Gaming";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = false;
+var l_bgVideo = true;
 
 /*Video background
 Avaiable options:
-"backgrounds/videos/aurora.webm"
-"backgrounds/videos/bluefall.webm"
-"backgrounds/videos/bluetilefloor.webm"
-"backgrounds/videos/bluewhitecircles.webm"
-"backgrounds/videos/bokehlens.webm"
-"backgrounds/videos/cleanbokeh.webm"
-"backgrounds/videos/coldnight.webm"
-"backgrounds/videos/colorfulburst.webm"
-"backgrounds/videos/dancingstars.webm"
-"backgrounds/videos/dropsflares.webm"
-"backgrounds/videos/focusorangebokeh.webm"
-"backgrounds/videos/glimmering.webm"
-"backgrounds/videos/glowingrings.webm"
-"backgrounds/videos/greencircles.webm"
-"backgrounds/videos/hues.webm"
-"backgrounds/videos/inthedeep.webm"
-"backgrounds/videos/modernflourish.webm"
-"backgrounds/videos/orangeaura.webm"
-"backgrounds/videos/warminside.webm"
-"backgrounds/videos/yellowgreen.webm"
+"backgrounds/videos/background.webm"
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/glimmering.webm";
+var l_background = "backgrounds/videos/background.webm";
 
 /*(Image-background only)
 Place one or more images
 Multiple images will automatically shuffle between them*/
-var l_bgImages = [
+/*var l_bgImages = [
 	"backgrounds/images/touhou01.jpg",
 	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/touhou03.jpg",
+	"backgrounds/images/touhou04.jpg",
+	"backgrounds/images/touhou05.jpg"
 ];
 
 /*Random background images order?*/
@@ -85,10 +68,7 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
-	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
-	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
-	{youtube: "-7VeTkLKdDw", name: "Departure"}
+	{ogg: "songs/battlefield.ogg", name: "Battlefield 1 Theme Song"}
 ];
 
 /*Random music order?*/
@@ -103,9 +83,9 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Enjoy the server",
-"Thanks for joining us!",
-"Did you know these backgrounds and songs are from Touhou?"
+"Thanks for choosing Mythical Gaming!",
+"Did you know we have a Deathrun server AND a DarkRP server?",
+"Our website will be posted soon.",
 ];
 
 /*Random message order?*/
